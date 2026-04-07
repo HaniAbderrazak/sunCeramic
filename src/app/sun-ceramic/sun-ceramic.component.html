@@ -81,15 +81,15 @@
                     </div>
                     
                 </div>
-
-                <button class="hero-btn" (click)="scrollToSection('features')">
-                    <span>{{ getTranslation('exploreBtn') }}</span>
-                    <i class="fas fa-arrow-right"></i>
-                </button> 
-                <button class="hero-btn catalog-btn" (click)="redirectTo('catalog')" style="margin-left: 1rem; background: transparent; border: 2px solid #2c6e3c; color: #2c6e3c;">
+<button class="hero-btn " (click)="redirectTo('catalog')" style="margin-left: 1rem; background: transparent; border: 2px solid #2c6e3c; color: #2c6e3c;">
     <i class="fas fa-book-open"></i>
     <span>{{ getTranslation('catalog') }}</span>
 </button>
+                <button class="hero-btn catalog-btn" (click)="scrollToSection('features')">
+                    <span>{{ getTranslation('exploreBtn') }}</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button> 
+                
             </div>
 
             <div class="hero-image">
